@@ -1,0 +1,9 @@
+hamcq-login-to-see:
+  admin:
+    settings:
+      title: Login to See Images Settings
+      description: Configure settings for the Login to See Images extension
+  
+  forum:
+    login_required: Please login to view images
+    image_hidden: Image hidden - login required

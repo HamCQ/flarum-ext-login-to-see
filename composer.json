@@ -1,0 +1,38 @@
+{
+    "name": "hamcq/login-to-see",
+    "description": "Require users to login before viewing images in posts",
+    "keywords": [
+        "flarum",
+        "login",
+        "image",
+        "guest",
+        "permission"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "HamCQ",
+            "email": "dev@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HamCQ\\LoginToSee\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Login to See Images",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-eye-slash",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        }
+    }
+}
